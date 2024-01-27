@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_div {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 195px 0px 189px 0px;
+    justify-content: center;
+    align-items: center;
+    background: var(--Very-Dark-Blue, #131518);
+}
+
+.card {
+    width: 412px;
+    height: 434px;
+    border-radius: 30px;
+    background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    background-color: var(--Dark-Blue, #262E38);
+}
+
+.card>h1 {
+    color: var(--Pure-White, #FFF);
+    font-family: Overpass;
+    font-size: 28px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.card>p {
+    width: 363px;
+    color: var(--Light-Grey, #969FAD);
+    font-family: Overpass;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 30px;
+}
+
+.five_btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 40px;
+}
+
+.buttons {
+    width: 51px;
+    height: 51px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--Dark-Blue, #262E38);
+    color: var(--Medium-Gray, #7C8798);
+    font-family: Overpass;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.buttons:hover {
+    background-color: #7C8798;
+    color: #FFF;
+}
+
+.submit {
+    width: 341px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: none;
+    margin: 40px 37px;
+    background: var(--Orange, #FC7614);
+    color: var(--Pure-White, #FFF);
+    font-family: Overpass;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+
+.card_2 {
+    display: none;
+    width: 412px;
+    height: 434px;
+    border-radius: 30px;
+    background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
+}
+
+.card_2>img {
+    padding: 53px 114px;
+}
+
+.selected {
+    width: 193px;
+    height: 32px;
+    margin: -24px 100px;
+    border-radius: 22.5px;
+    background: var(--Dark-Blue, #262E38);
+    color: var(--Orange, #FC7614);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Overpass;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.card_2>h1 {
+    color: #FFF;
+    font-family: Overpass;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 60px;
+    padding-left: 125px;
+}
+
+.card_2>p {
+    width: 373px;
+    color: var(--Light-Grey, #969FAD);
+    text-align: center;
+    font-family: Overpass;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 31px;
+    padding-top: 30px;
+}
